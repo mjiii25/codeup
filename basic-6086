@@ -1,0 +1,17 @@
+## 6086
+## [기초-종합] 거기까지! 이제 그만~(설명)(py)
+
+
+
+n = int(input())        # n = 5
+hab = 0
+num = 1
+
+
+while True :
+    hab += num          # hab = 6, num = 3
+    if hab < n :        # 6 > 5
+        num += 1        # num = 3
+    else :
+        print(hab)
+        break
